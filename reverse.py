@@ -1,6 +1,6 @@
 def reverse_words(text): 
     new = len(text)
-    str_reverse = str[new::-1]
+    str_reverse = reversed(str[new::-1])
     return str_reverse
     
     
